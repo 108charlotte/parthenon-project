@@ -31,6 +31,11 @@ environment = SubResource("Environment_1bvp3")
 use_collision = true
 size = Vector3(20, 0.002, 20)
 
+[node name="Wall1" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.68684, 9.70965, -0.342977)
+use_collision = true
+size = Vector3(0.002, 20, 20.0474)
+
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.990934, 0)
 script = ExtResource("3_1bvp3")
