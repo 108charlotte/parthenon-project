@@ -15,9 +15,14 @@ run/main_scene="uid://vim4vsaip54s"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GlobalVariables="*res://GlobalVariables.gd"
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg", "res://addons/godot_super-wakatime/plugin.cfg")
 
 [input]
 
@@ -51,7 +56,6 @@ interact={
 ]
 }
 
-[rendering]
+[internationalization]
 
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+locale/translations_pot_files=PackedStringArray("res://monster_1.dialogue")

@@ -5,12 +5,13 @@ const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 const SENSITIVITY = 0.02
 
-const BOB_FREQ = 5.0
+const BOB_FREQ = 3.0
 const BOB_AMP = 0.005
 var t_bob = 0.0
 
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
+@onready var monst1 = $"../Area3D/CollisionShape3D"
 
 func _ready(): 
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -42,7 +43,7 @@ func _physics_process(delta: float) -> void:
 		velocity.z = 0.0
 	
 	# head bob
-	t_bob += delta *velocity.length() * float(is_on_floor())
+	t_bob += delta * velocity.length() * float(is_on_floor())
 	camera.transform.origin = _headbob(t_bob)
 	
 	move_and_slide()
@@ -52,3 +53,19 @@ func _headbob(time) -> Vector3:
 	pos.y = sin(time * BOB_FREQ) * BOB_AMP
 	pos.x = cos(time * (BOB_FREQ * 0.5)) * (BOB_AMP * 0.5)
 	return pos
+
+func setup_play_dialogue(): 
+	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+
+func setup_move(): 
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
+
+func _on_dialogue_ended() -> void: 
+	setup_move()
+
+
+func _on_area_3d_body_entered(body: Node3D) -> void:
+	setup_play_dialogue()
+	DialogueManager.show_example_dialogue_balloon(load("res://monster_1.dialogue"), "start")
+	DialogueManager.dialogue_ended.connect(_on_dialogue_ended, CONNECT_ONE_SHOT)
+	return
