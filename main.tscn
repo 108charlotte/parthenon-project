@@ -16,7 +16,6 @@ sky_material = SubResource("ProceduralSkyMaterial_0xm2m")
 background_mode = 2
 sky = SubResource("Sky_h2yge")
 tonemap_mode = 2
-volumetric_fog_enabled = true
 volumetric_fog_density = 0.3
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_h2yge"]
