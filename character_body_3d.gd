@@ -21,6 +21,8 @@ func _unhandled_input(event):
 		head.rotate_y(-event.relative.x * SENSITIVITY)
 		camera.rotate_x(-event.relative.y * SENSITIVITY)
 		camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-40), deg_to_rad(60))
+	if Input.is_action_just_pressed("see_mouse"):
+		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -57,12 +59,8 @@ func _headbob(time) -> Vector3:
 func setup_play_dialogue(): 
 	Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
 
-func setup_move(): 
-	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-
 func _on_dialogue_ended() -> void: 
-	setup_move()
-
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 func _on_area_3d_body_entered(body: Node3D) -> void:
 	setup_play_dialogue()
