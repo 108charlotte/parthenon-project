@@ -1,6 +1,6 @@
 [gd_scene load_steps=14 format=3 uid="uid://vim4vsaip54s"]
 
-[ext_resource type="Script" uid="uid://br1t0808rj8aa" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="Script" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://dcpagqpvckc4n" path="res://icon.svg" id="2_h2yge"]
 [ext_resource type="Script" uid="uid://c6sh1rtqrwdij" path="res://character_body_3d.gd" id="3_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://by3x4hyeu0lky" path="res://mesh_instance_3d.tscn" id="3_h2yge"]
