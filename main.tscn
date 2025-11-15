@@ -1,9 +1,10 @@
-[gd_scene load_steps=14 format=3 uid="uid://vim4vsaip54s"]
+[gd_scene load_steps=16 format=3 uid="uid://vim4vsaip54s"]
 
 [ext_resource type="Script" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://dcpagqpvckc4n" path="res://icon.svg" id="2_h2yge"]
 [ext_resource type="Script" uid="uid://c6sh1rtqrwdij" path="res://character_body_3d.gd" id="3_1bvp3"]
 [ext_resource type="PackedScene" uid="uid://by3x4hyeu0lky" path="res://mesh_instance_3d.tscn" id="3_h2yge"]
+[ext_resource type="Texture2D" uid="uid://csncjmwd24xo7" path="res://assets/intro cutscene-table-320-240.png" id="5_lquwl"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0xm2m"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -43,6 +44,9 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_h2yge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_lquwl")
 }],
 "loop": true,
 "name": &"intro",
@@ -52,6 +56,8 @@ animations = [{
 [sub_resource type="BoxShape3D" id="BoxShape3D_1bvp3"]
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_1bvp3"]
+
+[sub_resource type="VideoStreamTheora" id="VideoStreamTheora_lquwl"]
 
 [node name="Node3D" type="Node3D"]
 script = ExtResource("1_0xm2m")
@@ -114,6 +120,7 @@ libraries = {
 [node name="cutscene" type="AnimatedSprite3D" parent="cutscenes"]
 transform = Transform3D(-2.18557e-06, 0, 50, 0, 50, 0, -50, 0, -2.18557e-06, 120, 0, 0)
 sprite_frames = SubResource("SpriteFrames_7mycd")
+animation = &"intro"
 
 [node name="Area3D" type="Area3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0)
@@ -124,5 +131,13 @@ shape = SubResource("BoxShape3D_1bvp3")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Area3D"]
 mesh = SubResource("CylinderMesh_1bvp3")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = SubResource("VideoStreamTheora_lquwl")
 
 [connection signal="body_entered" from="Area3D" to="CharacterBody3D" method="_on_area_3d_body_entered"]
