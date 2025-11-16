@@ -128,7 +128,16 @@ func apply_dialogue_line() -> void:
 	var portrait_path = "res://assets/monsters/" + character_name + ".png" 
 
 	if FileAccess.file_exists(portrait_path):
-		portrait.texture = load(portrait_path)
+		match portrait_path:
+			"res://assets/monsters/medusa.png": 
+				portrait.texture = preload("res://assets/monsters/medusa.png")
+			"res://assets/monsters/cerberus.png": 
+				portrait.texture = preload("res://assets/monsters/cerberus.png")
+			"res://assets/monsters/you.png": 
+				portrait.texture = preload("res://assets/monsters/you.png")
+			"res://assets/monsters/arachne.png": 
+				portrait.texture = preload("res://assets/monsters/arachne.png")
+			
 		
 		
 	mutation_cooldown.stop()

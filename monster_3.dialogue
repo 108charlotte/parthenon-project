@@ -9,7 +9,6 @@ if GlobalVariables.passed_m3 == false:
 		Medusa: thank y— oh. oopsies.
 		: You turn to stone upon eye contact.
 		do GlobalVariables.failed_game()
-	- End the conversation => END
 else:
 	Medusa: Continue, then.
 => END

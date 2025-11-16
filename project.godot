@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Parthenon Project"
-run/main_scene="uid://vim4vsaip54s"
+run/main_scene="uid://dun80712767vm"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
