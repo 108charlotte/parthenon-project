@@ -3,9 +3,10 @@
 [ext_resource type="Script" uid="uid://bk444u7t7yjqn" path="res://minigame.gd" id="1_qvv0w"]
 [ext_resource type="Texture2D" uid="uid://dcpagqpvckc4n" path="res://icon.svg" id="2_ai3cm"]
 
-[node name="CanvasLayer" type="CanvasLayer"]
+[node name="Node2D" type="Node2D"]
 script = ExtResource("1_qvv0w")
 
 [node name="background" type="Sprite2D" parent="."]
-scale = Vector2(20, 20)
+position = Vector2(593, 320)
+scale = Vector2(9.07812, 4.79688)
 texture = ExtResource("2_ai3cm")
