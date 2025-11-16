@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnm67htuohhlo"
-path="res://.godot/imported/banner.png-7e9e6a304eef850602c8d5afb80df9c3.ctex"
+uid="uid://d0ukve6fgncot"
+path="res://.godot/imported/Cerberus Drawn FINAL.PNG-53165b0575f9a5dac43af0ab6f81b43f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogue_manager/assets/banner.png"
-dest_files=["res://.godot/imported/banner.png-7e9e6a304eef850602c8d5afb80df9c3.ctex"]
+source_file="res://assets/monsters/Cerberus Drawn FINAL.PNG"
+dest_files=["res://.godot/imported/Cerberus Drawn FINAL.PNG-53165b0575f9a5dac43af0ab6f81b43f.ctex"]
 
 [params]
 
