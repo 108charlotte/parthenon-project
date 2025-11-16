@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=3 uid="uid://vim4vsaip54s"]
+[gd_scene load_steps=60 format=3 uid="uid://vim4vsaip54s"]
 
 [ext_resource type="Script" uid="uid://br1t0808rj8aa" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://dcpagqpvckc4n" path="res://icon.svg" id="2_h2yge"]
@@ -221,6 +221,23 @@ animations = [{
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1bvp3"]
 
+[sub_resource type="GDScript" id="GDScript_uypp3"]
+script/source = "extends Sprite3D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uypp3"]
+size = Vector3(1, 9.39601, 48.0511)
+
 [node name="Node3D" type="Node3D"]
 script = ExtResource("1_0xm2m")
 
@@ -277,41 +294,60 @@ sprite_frames = SubResource("SpriteFrames_7mycd")
 animation = &"intro"
 
 [node name="monster_1_area" type="Area3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 1, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="monster_1_area"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
 shape = SubResource("BoxShape3D_1bvp3")
 
 [node name="Sprite3D" type="Sprite3D" parent="monster_1_area"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 2, 0)
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
 texture = ExtResource("4_hrvbo")
 
 [node name="monster_2_area" type="Area3D" parent="."]
-transform = Transform3D(0.999218, 0, -0.0395567, 0, 1, 0, 0.0395567, 0, 0.999218, 9.64372, 0, 14.7095)
+transform = Transform3D(0.999218, 0, -0.0395567, 0, 1, 0, 0.0395567, 0, 0.999218, -4.8, 2, 4.429)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="monster_2_area"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
 shape = SubResource("BoxShape3D_1bvp3")
 
 [node name="Sprite3D" type="Sprite3D" parent="monster_2_area"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 2, 0)
+transform = Transform3D(-0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866025, 0, 0, 0)
 texture = ExtResource("50_uypp3")
 
 [node name="monster_3_area" type="Area3D" parent="."]
-transform = Transform3D(0.999996, 0, 0.00268832, 0, 1, 0, -0.00268832, 0, 0.999996, 9.28641, 0, -16.575)
+transform = Transform3D(0.999996, 0, 0.00268832, 0, 1, 0, -0.00268832, 0, 0.999996, -5.715, 2, -13.4598)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="monster_3_area"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
 shape = SubResource("BoxShape3D_1bvp3")
 
 [node name="Sprite3D" type="Sprite3D" parent="monster_3_area"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 2, 0)
+transform = Transform3D(0.766044, 0, 0.642788, 0, 1, 0, -0.642788, 0, 0.766044, 0, 0, 0)
 texture = ExtResource("51_blkrb")
 
 [node name="minigame" type="Sprite3D" parent="."]
 transform = Transform3D(-2.62268e-06, 0, 60, 0, 60, 0, -60, 0, -2.62268e-06, 120, 0, 0)
 texture = ExtResource("2_h2yge")
+script = SubResource("GDScript_uypp3")
+
+[node name="star_region_1" type="Area3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="star_region_1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.15543, 4.198, 32.7)
+shape = SubResource("BoxShape3D_uypp3")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="star_region_1"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -29.0855, 1.35848, 9.95328)
+shape = SubResource("BoxShape3D_uypp3")
+
+[node name="star_region_2" type="Area3D" parent="."]
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="star_region_2"]
+
+[node name="star_region_3" type="Area3D" parent="."]
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="star_region_3"]
 
 [connection signal="body_entered" from="monster_1_area" to="CharacterBody3D" method="_on_monster_1_area_entered"]
 [connection signal="body_entered" from="monster_2_area" to="CharacterBody3D" method="_on_monster_2_area_entered"]
