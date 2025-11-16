@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://ddyocdobnk8s4"
 path.s3tc="res://.godot/imported/cerberus.png-eeabd8b74ed57efcb54488d8e8d13c86.s3tc.ctex"
+path.etc2="res://.godot/imported/cerberus.png-eeabd8b74ed57efcb54488d8e8d13c86.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://images/cerberus.png"
-dest_files=["res://.godot/imported/cerberus.png-eeabd8b74ed57efcb54488d8e8d13c86.s3tc.ctex"]
+dest_files=["res://.godot/imported/cerberus.png-eeabd8b74ed57efcb54488d8e8d13c86.s3tc.ctex", "res://.godot/imported/cerberus.png-eeabd8b74ed57efcb54488d8e8d13c86.etc2.ctex"]
 
 [params]
 

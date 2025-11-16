@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://luvte7y0mkea"
 path.s3tc="res://.godot/imported/medusa.png-d87551923851ebd7b7ffa175b979cfa2.s3tc.ctex"
+path.etc2="res://.godot/imported/medusa.png-d87551923851ebd7b7ffa175b979cfa2.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/monsters/medusa.png"
-dest_files=["res://.godot/imported/medusa.png-d87551923851ebd7b7ffa175b979cfa2.s3tc.ctex"]
+dest_files=["res://.godot/imported/medusa.png-d87551923851ebd7b7ffa175b979cfa2.s3tc.ctex", "res://.godot/imported/medusa.png-d87551923851ebd7b7ffa175b979cfa2.etc2.ctex"]
 
 [params]
 

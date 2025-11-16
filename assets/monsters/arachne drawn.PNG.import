@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cyer43k6my3xp"
 path.s3tc="res://.godot/imported/arachne drawn.PNG-9094e37aa855da27460df809954a2cf4.s3tc.ctex"
+path.etc2="res://.godot/imported/arachne drawn.PNG-9094e37aa855da27460df809954a2cf4.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/monsters/arachne drawn.PNG"
-dest_files=["res://.godot/imported/arachne drawn.PNG-9094e37aa855da27460df809954a2cf4.s3tc.ctex"]
+dest_files=["res://.godot/imported/arachne drawn.PNG-9094e37aa855da27460df809954a2cf4.s3tc.ctex", "res://.godot/imported/arachne drawn.PNG-9094e37aa855da27460df809954a2cf4.etc2.ctex"]
 
 [params]
 

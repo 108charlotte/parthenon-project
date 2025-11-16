@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://bej8jb5mafu5k"
 path.s3tc="res://.godot/imported/ezgif-frame-033.png-7aef5838b9ee4c4b7d204398d288f004.s3tc.ctex"
+path.etc2="res://.godot/imported/ezgif-frame-033.png-7aef5838b9ee4c4b7d204398d288f004.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/outro/ezgif-frame-033.png"
-dest_files=["res://.godot/imported/ezgif-frame-033.png-7aef5838b9ee4c4b7d204398d288f004.s3tc.ctex"]
+dest_files=["res://.godot/imported/ezgif-frame-033.png-7aef5838b9ee4c4b7d204398d288f004.s3tc.ctex", "res://.godot/imported/ezgif-frame-033.png-7aef5838b9ee4c4b7d204398d288f004.etc2.ctex"]
 
 [params]
 
