@@ -15,6 +15,8 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if GlobalVariables.InCutscene: 
 		secondary_camera.make_current()
+	if cutscene.is_playing() == false: 
+		cutscene_finished()
 
 func setup_move(): 
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -24,11 +26,10 @@ func run_cutscene(path):
 	world_env.environment.volumetric_fog_enabled = false
 	GlobalVariables.InCutscene = true
 	cutscene.visible = true
-	cutscene_animator.animation_finished.connect(cutscene_finished)
-	cutscene_animator.play(path)
+	cutscene.play(path)
 	print("In Cutscene")
 
-func cutscene_finished(cutscene_name): 
+func cutscene_finished(): 
 	print("Cutscene ended")
 	GlobalVariables.InCutscene = false
 	world_env.environment.volumetric_fog_enabled = true
