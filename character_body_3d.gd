@@ -88,4 +88,6 @@ func _on_ending_area_body_entered(body):
 	if body is CharacterBody3D:
 		setup_play_dialogue()
 		print('helllo')
-		get_tree().change_scene_to_file("res://main_menu.tscn")
+		if GlobalVariables.passed_m1 and GlobalVariables.passed_m2 and GlobalVariables.passed_m3:
+			get_tree().change_scene_to_file("res://end_scene.tscn")
+		
