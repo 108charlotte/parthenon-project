@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dfwj1qdbcmowb" path="res://assets/Grass.PNG" id="1_cd48o"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_cd48o"]
-albedo_color = Color(0.262745, 0.54902, 0.309804, 1)
+albedo_color = Color(0.270588, 0.501961, 0.298039, 1)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_kdcm1"]
 material = SubResource("StandardMaterial3D_cd48o")
@@ -109,5 +109,1279 @@ texture = ExtResource("1_cd48o")
 
 [node name="Sprite3D20" type="Sprite3D" parent="plane"]
 transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 4.0564, 0.378212, -0.585251)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D21" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 10.7541, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D22" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 10.7541, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D23" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 9.23732, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D24" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 9.23732, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D25" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 9.23732, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D26" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 11.5127, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D27" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 9.29515, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D28" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 9.23732, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D29" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 11.5127, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D30" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 9.29515, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D31" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 16.0027, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D32" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 16.0027, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D33" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.4859, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D34" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.4859, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D35" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.4859, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D36" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 16.7613, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D37" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.5437, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D38" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.4859, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D39" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 16.7613, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D40" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.5437, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D41" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 22.0342, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D42" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 22.0342, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D43" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 20.5174, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D44" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 20.5174, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D45" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 20.5174, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D46" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 22.7928, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D47" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 20.5752, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D48" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 20.5174, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D49" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 22.7928, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D50" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 20.5752, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D51" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 27.2827, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D52" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 27.2827, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D53" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.7659, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D54" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.7659, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D55" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.7659, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D56" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 28.0413, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D57" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.8238, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D58" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.7659, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D59" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 28.0413, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D60" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.8238, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D61" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -7.55989, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D62" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -7.55989, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D63" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -9.0767, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D64" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -9.0767, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D65" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -9.0767, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D66" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -6.80129, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D67" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -9.01887, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D68" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -9.0767, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D69" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -6.80129, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D70" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -9.01887, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D71" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -2.31134, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D72" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -2.31134, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D73" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.82814, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D74" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.82814, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D75" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.82814, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D76" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -1.55274, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D77" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.77032, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D78" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.82814, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D79" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -1.55274, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D80" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.77032, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D81" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -28.0173, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D82" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -28.0173, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D83" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.5341, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D84" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.5341, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D85" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.5341, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D86" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -27.2587, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D87" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.4763, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D88" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.5341, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D89" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -27.2587, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D90" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.4763, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D91" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -22.7687, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D92" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -22.7687, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D93" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -24.2855, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D94" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -24.2855, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D95" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -24.2855, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D96" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -22.0101, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D97" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -24.2277, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D98" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -24.2855, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D99" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -22.0101, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D100" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -24.2277, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D101" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -43.5112, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D102" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -43.5112, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D103" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -45.028, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D104" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -45.028, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D105" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -45.028, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D106" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -42.7526, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D107" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -44.9701, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D108" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -45.028, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D109" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -42.7526, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D110" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -44.9701, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D111" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -38.2626, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D112" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -38.2626, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D113" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -39.7794, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D114" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -39.7794, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D115" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -39.7794, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D116" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -37.504, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D117" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -39.7216, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D118" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -39.7794, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D119" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -37.504, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D120" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -39.7216, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D121" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -18.0259, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D122" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -18.0259, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D123" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -19.5427, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D124" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -19.5427, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D125" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -19.5427, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D126" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -17.2673, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D127" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -19.4849, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D128" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -19.5427, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D129" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -17.2673, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D130" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -19.4849, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D131" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -12.7774, 0.378212, 0.51206)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D132" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -12.7774, 0.378212, -1.24371)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D133" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -14.2942, 0.378212, -0.297081)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D134" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -14.2942, 0.378212, 1.08294)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D135" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -14.2942, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D136" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -12.0188, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D137" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -14.2364, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D138" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -14.2942, 0.378212, -2.08567)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D139" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -12.0188, 0.378212, 1.67582)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D140" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -14.2364, 0.378212, -0.936309)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D141" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 16.1937, 0.378212, 7.16168)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D142" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 16.1937, 0.378212, 5.4059)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D143" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.6769, 0.378212, 6.35254)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D144" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.6769, 0.378212, 7.73256)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D145" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.6769, 0.378212, 4.56395)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D146" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 16.9523, 0.378212, 8.32544)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D147" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.7347, 0.378212, 5.71331)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D148" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.6769, 0.378212, 4.56395)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D149" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 16.9523, 0.378212, 8.32544)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D150" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.7347, 0.378212, 5.71331)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D151" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 21.4422, 0.378212, 7.16168)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D152" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 21.4422, 0.378212, 5.4059)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D153" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 19.9254, 0.378212, 6.35254)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D154" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 19.9254, 0.378212, 7.73256)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D155" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 19.9254, 0.378212, 4.56395)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D156" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 22.2008, 0.378212, 8.32544)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D157" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 19.9833, 0.378212, 5.71331)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D158" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 19.9254, 0.378212, 4.56395)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D159" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 22.2008, 0.378212, 8.32544)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D160" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 19.9833, 0.378212, 5.71331)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D161" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 26.681, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D162" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 26.681, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D163" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.1642, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D164" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.1642, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D165" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.1642, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D166" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 27.4396, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D167" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.222, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D168" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.1642, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D169" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 27.4396, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D170" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 25.222, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D171" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 31.9295, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D172" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 31.9295, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D173" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 30.4127, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D174" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 30.4127, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D175" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 30.4127, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D176" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 32.6881, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D177" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 30.4706, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D178" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 30.4127, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D179" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 32.6881, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D180" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 30.4706, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D181" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 37.9611, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D182" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 37.9611, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D183" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 36.4443, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D184" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 36.4443, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D185" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 36.4443, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D186" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 38.7197, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D187" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 36.5021, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D188" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 36.4443, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D189" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 38.7197, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D190" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 36.5021, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D191" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 43.2096, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D192" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 43.2096, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D193" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 41.6928, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D194" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 41.6928, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D195" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 41.6928, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D196" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 43.9682, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D197" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 41.7506, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D198" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 41.6928, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D199" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 43.9682, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D200" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 41.7506, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D201" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 8.36698, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D202" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 8.36698, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D203" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 6.85017, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D204" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 6.85017, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D205" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 6.85017, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D206" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 9.12557, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D207" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 6.908, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D208" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 6.85017, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D209" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 9.12557, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D210" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 6.908, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D211" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 13.6155, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D212" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 13.6155, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D213" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 12.0987, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D214" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 12.0987, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D215" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 12.0987, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D216" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.3741, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D217" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 12.1565, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D218" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 12.0987, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D219" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 14.3741, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D220" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 12.1565, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D221" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -12.0904, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D222" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -12.0904, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D223" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -13.6072, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D224" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -13.6072, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D225" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -13.6072, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D226" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -11.3318, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D227" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -13.5494, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D228" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -13.6072, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D229" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -11.3318, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D230" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -13.5494, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D231" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -6.84187, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D232" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -6.84187, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D233" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -8.35868, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D234" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -8.35868, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D235" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -8.35868, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D236" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -6.08328, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D237" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -8.30085, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D238" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -8.35868, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D239" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -6.08328, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D240" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -8.30085, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D241" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -27.5843, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D242" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -27.5843, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D243" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.1011, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D244" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.1011, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D245" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.1011, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D246" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -26.8257, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D247" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.0433, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D248" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.1011, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D249" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -26.8257, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D250" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -29.0433, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D251" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -22.3357, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D252" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -22.3357, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D253" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -23.8525, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D254" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -23.8525, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D255" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -23.8525, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D256" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -21.5771, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D257" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -23.7947, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D258" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -23.8525, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D259" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -21.5771, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D260" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -23.7947, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D261" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -2.09908, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D262" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -2.09908, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D263" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.61589, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D264" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.61589, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D265" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.61589, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D266" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -1.34048, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D267" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.55806, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D268" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.61589, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D269" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -1.34048, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D270" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, -3.55806, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D271" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 3.14948, 0.378212, 6.81062)
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D272" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 3.14948, 0.378212, 5.05485)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D273" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 1.63267, 0.378212, 6.00148)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D274" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 1.63267, 0.378212, 7.3815)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D275" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 1.63267, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D276" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 3.90807, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D277" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 1.6905, 0.378212, 5.36225)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D278" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 1.63267, 0.378212, 4.21289)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D279" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 3.90807, 0.378212, 7.97438)
+flip_h = true
+texture = ExtResource("1_cd48o")
+
+[node name="Sprite3D280" type="Sprite3D" parent="plane"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 1.6905, 0.378212, 5.36225)
 flip_h = true
 texture = ExtResource("1_cd48o")

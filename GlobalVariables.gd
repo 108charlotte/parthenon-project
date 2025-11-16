@@ -2,10 +2,13 @@ extends Node
 
 var InCutscene = false
 
-var failedGame = false
 var passed_m1 = false
 var passed_m2 = false
 var passed_m3 = false
+
+func failed_game():
+	get_tree().change_scene_to_file("res://lose_scene.tscn")
+	
 
 func _on_dialogue_event(event_data: String):
 	print("Game event received: ", event_data)
