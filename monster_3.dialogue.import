@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cu6erkl57fdm"
+path="res://.godot/imported/monster_3.dialogue-0beb6164beeda0fe8775900ef52a37e9.tres"
+
+[deps]
+
+source_file="res://monster_3.dialogue"
+dest_files=["res://.godot/imported/monster_3.dialogue-0beb6164beeda0fe8775900ef52a37e9.tres"]
+
+[params]
+
+defaults=true

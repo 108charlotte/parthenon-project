@@ -60,8 +60,20 @@ func setup_play_dialogue():
 func _on_dialogue_ended() -> void: 
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
-func _on_area_3d_body_entered(body: Node3D) -> void:
+func _on_monster_1_area_entered(body: Node3D) -> void:
 	setup_play_dialogue()
 	DialogueManager.show_example_dialogue_balloon(load("res://monster_1.dialogue"), "start")
+	DialogueManager.dialogue_ended.connect(_on_dialogue_ended, CONNECT_ONE_SHOT)
+	return
+
+func _on_monster_2_area_entered(body: Node3D) -> void:
+	setup_play_dialogue()
+	DialogueManager.show_example_dialogue_balloon(load("res://monster_2.dialogue"), "start")
+	DialogueManager.dialogue_ended.connect(_on_dialogue_ended, CONNECT_ONE_SHOT)
+	return
+
+func _on_monster_3_area_entered(body: Node3D) -> void:
+	setup_play_dialogue()
+	DialogueManager.show_example_dialogue_balloon(load("res://monster_3.dialogue"), "start")
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended, CONNECT_ONE_SHOT)
 	return

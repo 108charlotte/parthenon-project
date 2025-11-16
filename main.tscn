@@ -274,15 +274,39 @@ transform = Transform3D(-7.43094e-07, 0, 17, 0, 17, 0, -17, 0, -7.43094e-07, 120
 sprite_frames = SubResource("SpriteFrames_7mycd")
 animation = &"intro"
 
-[node name="Area3D" type="Area3D" parent="."]
+[node name="monster_1_area" type="Area3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0)
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="monster_1_area"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
 shape = SubResource("BoxShape3D_1bvp3")
 
-[node name="Sprite3D" type="Sprite3D" parent="Area3D"]
+[node name="Sprite3D" type="Sprite3D" parent="monster_1_area"]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 2, 0)
 texture = ExtResource("4_hrvbo")
 
-[connection signal="body_entered" from="Area3D" to="CharacterBody3D" method="_on_area_3d_body_entered"]
+[node name="monster_2_area" type="Area3D" parent="."]
+transform = Transform3D(0.812369, 0, 0.583144, 0, 1, 0, -0.583144, 0, 0.812369, -17, 0, 22)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="monster_2_area"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+shape = SubResource("BoxShape3D_1bvp3")
+
+[node name="Sprite3D" type="Sprite3D" parent="monster_2_area"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 2, 0)
+texture = ExtResource("4_hrvbo")
+
+[node name="monster_3_area" type="Area3D" parent="."]
+transform = Transform3D(0.771547, 0, -0.636172, 0, 1, 0, 0.636172, 0, 0.771547, -31.4887, 0, -24.0722)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="monster_3_area"]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+shape = SubResource("BoxShape3D_1bvp3")
+
+[node name="Sprite3D" type="Sprite3D" parent="monster_3_area"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 2, 0)
+texture = ExtResource("4_hrvbo")
+
+[connection signal="body_entered" from="monster_1_area" to="CharacterBody3D" method="_on_monster_1_area_entered"]
+[connection signal="body_entered" from="monster_2_area" to="CharacterBody3D" method="_on_monster_2_area_entered"]
+[connection signal="body_entered" from="monster_3_area" to="CharacterBody3D" method="_on_monster_3_area_entered"]
