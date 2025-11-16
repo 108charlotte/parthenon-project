@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnm67htuohhlo"
-path="res://.godot/imported/banner.png-7e9e6a304eef850602c8d5afb80df9c3.ctex"
+uid="uid://bf6fidnmkxpd2"
+path="res://.godot/imported/intro cutscene-table-320-240.png-fc6c57c401cd609f05302715a320fcd7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/dialogue_manager/assets/banner.png"
-dest_files=["res://.godot/imported/banner.png-7e9e6a304eef850602c8d5afb80df9c3.ctex"]
+source_file="res://assets/intro cutscene-table-320-240.png"
+dest_files=["res://.godot/imported/intro cutscene-table-320-240.png-fc6c57c401cd609f05302715a320fcd7.ctex"]
 
 [params]
 

@@ -1,0 +1,120 @@
+[gd_scene load_steps=4 format=3 uid="uid://cf7ru80kaj2jo"]
+
+[ext_resource type="Texture2D" uid="uid://dfwj1qdbcmowb" path="res://assets/Grass.PNG" id="1_mw2ei"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_kl2qe"]
+albedo_color = Color(0.029699992, 0.33, 0.06473503, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_pmnf0"]
+material = SubResource("StandardMaterial3D_kl2qe")
+size = Vector2(10, 10)
+
+[node name="Node3D" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 0.80417174, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="Plane" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.52959704, 0, 0, 0, 0.61035174, 0, 0, 0, 0.4410753, 0, 0, 0)
+mesh = SubResource("PlaneMesh_pmnf0")
+
+[node name="Sprite3D" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.3, 0, 0, 0, 0.29999998, 0, 0, 0, 0.3, -0.87657905, 1.3272934, -0.7006655)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D2" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -0.87657905, 1.3272934, -3.6472778)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D15" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.3, 0, 0, 0, 0.29999998, 0, 0, 0, 0.3, 2.0370953, 1.3272934, 4.6068487)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D16" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -0.87657905, 1.3272934, 4.387067)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D3" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999998, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999998, 1.4359462, 1.3272934, -2.6820722)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D13" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.3, 0, 0, 0, 0.29999998, 0, 0, 0, 0.3, 0.5722592, 1.3272934, 2.1638699)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D14" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999998, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999998, -1.8947203, 1.3272934, 1.7240891)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D4" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.3, 0, 0, 0, 0.29999998, 0, 0, 0, 0.3, 1.4359462, 1.3272934, 0.33755922)
+flip_h = true
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D17" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999998, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999998, 0.32747734, 1.3272934, -0.9898995)
+flip_h = true
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D18" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999998, 0, 0, 0, 0.29999995, 0, 0, 0, 0.29999998, -1.9023697, 1.3272934, -2.133218)
+flip_h = true
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D19" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999998, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999998, 1.6883775, 1.3272934, -2.482989)
+flip_h = true
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D5" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999995, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999995, -1.0613918, 1.3272934, 1.5127063)
+flip_h = true
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D6" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999995, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999995, 0.74615216, 1.3272934, 2.953526)
+flip_h = true
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D7" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999995, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999995, 0.74615216, 1.3272934, -4.274654)
+flip_h = true
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D8" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999995, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999995, -2.182212, 1.3272934, -0.7695415)
+flip_h = true
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D9" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999995, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999995, 1.1464436, 1.3272934, 3.3509924)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D10" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999995, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999995, -2.0522115, 1.3272934, 4.409975)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D11" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999995, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999995, 1.821679, 1.3272934, 1.9904497)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
+
+[node name="Sprite3D12" type="Sprite3D" parent="Plane"]
+transform = Transform3D(0.29999992, 0, 0, 0, 0.29999998, 0, 0, 0, 0.29999992, -0.0590837, 1.3272934, -2.961467)
+modulate = Color(0.4745098, 0.7176471, 1, 1)
+texture = ExtResource("1_mw2ei")
