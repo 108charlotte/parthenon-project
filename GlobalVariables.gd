@@ -2,9 +2,9 @@ extends Node
 
 var InCutscene = false
 
-var passed_m1 = true
-var passed_m2 = true
-var passed_m3 = true
+var passed_m1 = false
+var passed_m2 = false
+var passed_m3 = false
 
 var endCutscene = false
 
