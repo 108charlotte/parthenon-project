@@ -6,9 +6,11 @@ Cerberus: Intruder. Trespasser. Singer? …Maybe?
 	Cerberus: Warm… safe… music…
 	: His middle head begins to droop.
 	: Seems like you can safely pass through this area.
+	do GlobalVariables.passed_m1 = true
 - Distract one of his heads
 	You: Hey, you! Fetch!
 	: But nothing was thrown.
 	Cerberus: Deception. Unwise.
 	: He lunges. Unwise decision.
+	do GlobalVariables.failedGame = true
 => END

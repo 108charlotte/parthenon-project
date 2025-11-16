@@ -4,5 +4,6 @@ Medusa: Another hero come to steal what is not theirs? Tell me, little demigodâ€
 	Medusa: Wise. Most would rather die than deny their pride. Continue, then.
 - Gaze longingly into her eyes
 	Medusa: ur freaking dumb
+	do GlobalVariables.failedGame = true
 - End the conversation => END
 => END

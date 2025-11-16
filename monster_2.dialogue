@@ -3,6 +3,7 @@ Arachne: Another meddler? If you seek the fallen star, wait. Art is not rushed.
 - Try to out-weave Arachne
 	: Arachne laughs harshly.
 	Arachne: You challenge me? Then step into my loom—try not to get tangled.
+	do GlobalVariables.failedGame = true
 - Let her finish her tapestry
 	Arachne: Respect… from a demigod? How rare. Very well. Your patience shall be repaid.
 => END

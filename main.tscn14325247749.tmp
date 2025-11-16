@@ -1,4 +1,4 @@
-[gd_scene load_steps=60 format=3 uid="uid://vim4vsaip54s"]
+[gd_scene load_steps=59 format=3 uid="uid://vim4vsaip54s"]
 
 [ext_resource type="Script" uid="uid://br1t0808rj8aa" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://dcpagqpvckc4n" path="res://icon.svg" id="2_h2yge"]
@@ -51,7 +51,6 @@
 [ext_resource type="Texture2D" uid="uid://o2qvq8ejma08" path="res://ezgif-768006266ad2581b-png-split/ezgif-frame-045.png" id="49_53bls"]
 [ext_resource type="Texture2D" uid="uid://bdyuywkbk2b8x" path="res://assets/monsters/arachne.png" id="50_uypp3"]
 [ext_resource type="Texture2D" uid="uid://luvte7y0mkea" path="res://assets/monsters/medusa.png" id="51_blkrb"]
-[ext_resource type="PackedScene" uid="uid://l0dc7yl8w64u" path="res://assets/maze.glb" id="52_blkrb"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0xm2m"]
 sky_horizon_color = Color(0.662243, 0.671743, 0.686743, 1)
@@ -66,7 +65,8 @@ sky = SubResource("Sky_h2yge")
 tonemap_mode = 2
 volumetric_fog_density = 0.3
 
-[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_blkrb"]
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_h2yge"]
+points = PackedVector3Array(-0.125207, -0.532801, -0.480507, 0.0227831, 0.47607, 0.498884, 0.169713, 0.559144, 0.464172, 0.231051, -0.803591, 0.320455, 0.40741, 0.651043, -0.243523, -0.482789, 0.594843, 0.0822132, -0.362868, -0.682312, 0.289697, 0.469044, -0.654529, -0.0662713, -0.127444, 0.842701, -0.338103, -0.393435, -0.683942, -0.244717, 0.438255, 0.623309, 0.200849, 0.0841477, 0.977454, 0.114795, -0.0682023, -0.976458, -0.12927, 0.20055, -0.563129, -0.451454, -0.185527, 0.595453, -0.453475, -0.273363, 0.592268, 0.407754, -0.00693649, -0.476823, 0.49966, 0.375821, -0.588614, 0.316955, 0.111579, 0.563059, -0.481177, -0.41725, 0.527866, -0.270497, -0.484546, -0.596972, -0.0665097, -0.279747, 0.908561, 0.0533361, -0.250197, -0.880712, 0.205319, 0.263647, -0.902771, -0.127394, 0.293368, 0.871526, -0.157196, 0.373412, -0.526319, -0.328246, 0.499663, 0.476641, -0.00688856, 0.0531056, 0.875001, 0.324703, -0.154543, -0.590854, 0.465879, -0.0972799, -0.782358, -0.398188, -0.387649, -0.498171, 0.31565, -0.30068, -0.587995, -0.388901)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_7mycd"]
 animations = [{
@@ -249,39 +249,32 @@ environment = SubResource("Environment_1bvp3")
 use_collision = true
 size = Vector3(100, 0.002, 100)
 
-[node name="CSGBox3D" type="CSGBox3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50, 3, -12.362)
-
 [node name="Wall1" type="CSGBox3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50, 3, 0)
-visible = false
 use_collision = true
-size = Vector3(2, 7, 100)
+size = Vector3(0.002, 7, 100)
 
 [node name="Wall2" type="CSGBox3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50, 3, 0)
-visible = false
 use_collision = true
-size = Vector3(2, 7, 100)
+size = Vector3(0.002, 7, 100)
 
 [node name="Wall3" type="CSGBox3D" parent="."]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 3, -50)
-visible = false
 use_collision = true
-size = Vector3(2, 7, 100)
+size = Vector3(0.002, 7, 100)
 
 [node name="Wall4" type="CSGBox3D" parent="."]
 transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 3, 50)
-visible = false
 use_collision = true
-size = Vector3(2, 7, 100)
+size = Vector3(0.002, 7, 100)
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.7552, 0.990934, -39.5325)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.990934, 0)
 script = ExtResource("3_1bvp3")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
-shape = SubResource("CapsuleShape3D_blkrb")
+shape = SubResource("ConvexPolygonShape3D_h2yge")
 
 [node name="Head" type="Node3D" parent="CharacterBody3D"]
 
@@ -309,7 +302,7 @@ transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 
 texture = ExtResource("4_hrvbo")
 
 [node name="monster_2_area" type="Area3D" parent="."]
-transform = Transform3D(0.999218, 0, -0.0395567, 0, 1, 0, 0.0395567, 0, 0.999218, -21.0104, 2, 3.78727)
+transform = Transform3D(0.999218, 0, -0.0395567, 0, 1, 0, 0.0395567, 0, 0.999218, -4.8, 2, 4.429)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="monster_2_area"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
@@ -320,7 +313,7 @@ transform = Transform3D(-0.866025, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866025, 0, 0, 0)
 texture = ExtResource("50_uypp3")
 
 [node name="monster_3_area" type="Area3D" parent="."]
-transform = Transform3D(0.999996, 0, 0.00268832, 0, 1, 0, -0.00268832, 0, 0.999996, -16.4582, 2, -13.4309)
+transform = Transform3D(0.999996, 0, 0.00268832, 0, 1, 0, -0.00268832, 0, 0.999996, -5.715, 2, -13.4598)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="monster_3_area"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
@@ -335,21 +328,6 @@ transform = Transform3D(-2.62268e-06, 0, 60, 0, 60, 0, -60, 0, -2.62268e-06, 120
 texture = ExtResource("2_h2yge")
 script = SubResource("GDScript_uypp3")
 
-[node name="maze" parent="." instance=ExtResource("52_blkrb")]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0)
-
-[node name="ending_area" type="Area3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.36862, 1, -49.7114)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="ending_area"]
-transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
-shape = SubResource("BoxShape3D_1bvp3")
-
-[node name="Sprite3D" type="Sprite3D" parent="ending_area"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 0, 0)
-texture = ExtResource("4_hrvbo")
-
 [connection signal="body_entered" from="monster_1_area" to="CharacterBody3D" method="_on_monster_1_area_entered"]
 [connection signal="body_entered" from="monster_2_area" to="CharacterBody3D" method="_on_monster_2_area_entered"]
 [connection signal="body_entered" from="monster_3_area" to="CharacterBody3D" method="_on_monster_3_area_entered"]
-[connection signal="body_entered" from="ending_area" to="CharacterBody3D" method="_on_ending_area_body_entered"]
