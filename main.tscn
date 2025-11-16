@@ -1,4 +1,4 @@
-[gd_scene load_steps=60 format=3 uid="uid://vim4vsaip54s"]
+[gd_scene load_steps=59 format=3 uid="uid://vim4vsaip54s"]
 
 [ext_resource type="Script" uid="uid://br1t0808rj8aa" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://dcpagqpvckc4n" path="res://icon.svg" id="2_h2yge"]
@@ -235,9 +235,6 @@ func _process(delta: float) -> void:
 	pass
 "
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_uypp3"]
-size = Vector3(1, 9.39601, 48.0511)
-
 [node name="Node3D" type="Node3D"]
 script = ExtResource("1_0xm2m")
 
@@ -330,24 +327,6 @@ texture = ExtResource("51_blkrb")
 transform = Transform3D(-2.62268e-06, 0, 60, 0, 60, 0, -60, 0, -2.62268e-06, 120, 0, 0)
 texture = ExtResource("2_h2yge")
 script = SubResource("GDScript_uypp3")
-
-[node name="star_region_1" type="Area3D" parent="."]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="star_region_1"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.15543, 4.198, 32.7)
-shape = SubResource("BoxShape3D_uypp3")
-
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="star_region_1"]
-transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -29.0855, 1.35848, 9.95328)
-shape = SubResource("BoxShape3D_uypp3")
-
-[node name="star_region_2" type="Area3D" parent="."]
-
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="star_region_2"]
-
-[node name="star_region_3" type="Area3D" parent="."]
-
-[node name="CollisionShape3D3" type="CollisionShape3D" parent="star_region_3"]
 
 [connection signal="body_entered" from="monster_1_area" to="CharacterBody3D" method="_on_monster_1_area_entered"]
 [connection signal="body_entered" from="monster_2_area" to="CharacterBody3D" method="_on_monster_2_area_entered"]
