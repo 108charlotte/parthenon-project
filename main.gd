@@ -30,7 +30,6 @@ func run_cutscene(path):
 	print("In Cutscene")
 
 func cutscene_finished(): 
-	print("Cutscene ended")
 	GlobalVariables.InCutscene = false
 	world_env.environment.volumetric_fog_enabled = true
 	camera.make_current()
