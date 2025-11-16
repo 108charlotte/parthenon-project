@@ -61,19 +61,34 @@ func _on_dialogue_ended() -> void:
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 
 func _on_monster_1_area_entered(body: Node3D) -> void:
-	setup_play_dialogue()
-	DialogueManager.show_example_dialogue_balloon(load("res://monster_1.dialogue"), "start")
-	#DialogueManager.dialogue_ended.connect(_on_dialogue_ended, CONNECT_ONE_SHOT)
-	return
+	if body is CharacterBody3D:
+		setup_play_dialogue()
+		DialogueManager.show_example_dialogue_balloon(load("res://monster_1.dialogue"), "start")
+		#DialogueManager.dialogue_ended.connect(_on_dialogue_ended, CONNECT_ONE_SHOT)
+		return
 
 func _on_monster_2_area_entered(body: Node3D) -> void:
-	setup_play_dialogue()
-	DialogueManager.show_example_dialogue_balloon(load("res://monster_2.dialogue"), "start")
-	#DialogueManager.dialogue_ended.connect(_on_dialogue_ended, CONNECT_ONE_SHOT)
-	return
+	if body is CharacterBody3D:
+		setup_play_dialogue()
+		DialogueManager.show_example_dialogue_balloon(load("res://monster_2.dialogue"), "start")
+		#DialogueManager.dialogue_ended.connect(_on_dialogue_ended, CONNECT_ONE_SHOT)
+		return
 
 func _on_monster_3_area_entered(body: Node3D) -> void:
-	setup_play_dialogue()
-	DialogueManager.show_example_dialogue_balloon(load("res://monster_3.dialogue"), "start")
-	#DialogueManager.dialogue_ended.connect(_on_dialogue_ended, CONNECT_ONE_SHOT)
-	return
+	if body is CharacterBody3D:
+		setup_play_dialogue()
+		DialogueManager.show_example_dialogue_balloon(load("res://monster_3.dialogue"), "start")
+		#DialogueManager.dialogue_ended.connect(_on_dialogue_ended, CONNECT_ONE_SHOT)
+		return
+
+func _on_end_area_entered(area):
+	print('ts better work.')
+
+func _on_ending_area_body_entered(body):
+	if body is CharacterBody3D:
+		setup_play_dialogue()
+		print('helllo')
+		if GlobalVariables.passed_m1 and GlobalVariables.passed_m2 and GlobalVariables.passed_m3:
+			get_parent().run_cutscene("outro")
+			#get_tree().change_scene_to_file("res://end_scene.tscn")
+		
