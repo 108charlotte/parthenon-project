@@ -20,6 +20,8 @@ class_name DialogueManagerExampleBalloon extends CanvasLayer
 ## A sound player for voice lines (if they exist).
 @onready var audio_stream_player: AudioStreamPlayer = %AudioStreamPlayer
 
+@onready var portrait: TextureRect = %Balloon/Portrait
+
 ## Temporary game states
 var temporary_game_states: Array = []
 
@@ -119,6 +121,16 @@ func start(with_dialogue_resource: DialogueResource = null, title: String = "", 
 
 ## Apply any changes to the balloon given a new [DialogueLine].
 func apply_dialogue_line() -> void:
+	
+	var character_name = dialogue_line.character.to_lower() # Or however you name your character files
+	print(character_name)
+	print("HELO")
+	var portrait_path = "res://assets/monsters/" + character_name + ".png" 
+
+	if FileAccess.file_exists(portrait_path):
+		portrait.texture = load(portrait_path)
+		
+		
 	mutation_cooldown.stop()
 
 	progress.hide()
@@ -143,7 +155,7 @@ func apply_dialogue_line() -> void:
 	if not dialogue_line.text.is_empty():
 		dialogue_label.type_out()
 		await dialogue_label.finished_typing
-
+	
 	# Wait for next line
 	if dialogue_line.has_tag("voice"):
 		audio_stream_player.stream = load(dialogue_line.get_tag_value("voice"))

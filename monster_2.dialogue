@@ -1,11 +1,8 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
-- End the conversation => END
-Nathan: For more information see the online documentation.
+Arachne: Another meddler? If you seek the fallen star, wait. Art is not rushed.
+- Try to out-weave Arachne
+	: Arachne laughs harshly.
+	Arachne: You challenge me? Then step into my loom—try not to get tangled.
+- Let her finish her tapestry
+	Arachne: Respect… from a demigod? How rare. Very well. Your patience shall be repaid.
 => END

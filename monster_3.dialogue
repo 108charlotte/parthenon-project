@@ -1,11 +1,8 @@
 ~ start
-Nathan: [[Hi|Hello|Howdy]], this is some dialogue.
-Nathan: Here are some choices.
-- First one
-	Nathan: You picked the first one.
-- Second one
-	Nathan: You picked the second one.
-- Start again => start
+Medusa: Another hero come to steal what is not theirs? Tell me, little demigod—will you look upon me?
+- Avert your gaze!
+	Medusa: Wise. Most would rather die than deny their pride. Continue, then.
+- Gaze longingly into her eyes
+	Medusa: ur freaking dumb
 - End the conversation => END
-Nathan: For more information see the online documentation.
 => END
