@@ -2,9 +2,11 @@ extends Node
 
 var InCutscene = false
 
-var passed_m1 = false
-var passed_m2 = false
-var passed_m3 = false
+var passed_m1 = true
+var passed_m2 = true
+var passed_m3 = true
+
+var endCutscene = false
 
 func failed_game():
 	get_tree().change_scene_to_file("res://lose_scene.tscn")

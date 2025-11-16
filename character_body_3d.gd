@@ -90,5 +90,6 @@ func _on_ending_area_body_entered(body):
 		print('helllo')
 		if GlobalVariables.passed_m1 and GlobalVariables.passed_m2 and GlobalVariables.passed_m3:
 			get_parent().run_cutscene("outro")
+			GlobalVariables.endCutscene = true
 			#get_tree().change_scene_to_file("res://end_scene.tscn")
 		

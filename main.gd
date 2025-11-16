@@ -15,8 +15,12 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if GlobalVariables.InCutscene: 
 		secondary_camera.make_current()
-	if cutscene.is_playing() == false: 
-		cutscene_finished()
+	if cutscene.is_playing() == false:
+		if GlobalVariables.endCutscene == false: 
+			cutscene_finished()
+		else:
+			get_tree().change_scene_to_file("res://end_scene.tscn")
+		
 
 func setup_move(): 
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
