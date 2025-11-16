@@ -1,11 +1,15 @@
 ~ start
-Medusa: Another hero come to steal what is not theirs? Tell me, Hyppolita—will you look upon me?
-- Avert your gaze!
-	Medusa: Wise. Most would rather die than deny their pride. Continue, then.
-- Gaze longingly into her eyes
-	You: Gang that's a BADDIE right there!
-	Medusa: thank y— oh. oopsies.
-	: You turn to stone upon eye contact.
-	do GlobalVariables.failedGame = true
-- End the conversation => END
+if GlobalVariables.passed_m3 == false:
+	Medusa: Another hero come to steal what is not theirs? Tell me, Hyppolita—will you look upon me?
+	- Avert your gaze!
+		Medusa: Wise. Most would rather die than deny their pride. Continue, then.
+		do GlobalVariables.passed_m3 = true
+	- Gaze longingly into her eyes
+		You: Gang that's a BADDIE right there!
+		Medusa: thank y— oh. oopsies.
+		: You turn to stone upon eye contact.
+		do GlobalVariables.failed_game()
+	- End the conversation => END
+else:
+	Medusa: Continue, then.
 => END

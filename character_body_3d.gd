@@ -89,5 +89,6 @@ func _on_ending_area_body_entered(body):
 		setup_play_dialogue()
 		print('helllo')
 		if GlobalVariables.passed_m1 and GlobalVariables.passed_m2 and GlobalVariables.passed_m3:
-			get_tree().change_scene_to_file("res://end_scene.tscn")
+			get_parent().run_cutscene("outro")
+			#get_tree().change_scene_to_file("res://end_scene.tscn")
 		

@@ -1,41 +1,47 @@
 ~ start
-: As you continue on your path, you notice the gate is guarded by a large dog... with multiple heads? 
-Cerberus: Intruder. Trespasser. Singer? …Maybe?
-- Soothe Cerberus with a song
-	: You open spotify and start a calming playlist.
-	Cerberus: Warm… safe… music… IS THAT CLAIRO?
-	: His middle head begins to droop. "Performative ahh male," exclaims the left head.
-	: Seems like you can safely pass through this area.
-	Cerberus: Wait. What happened to the music?
-	: You have reached an unskippable ad.
-	- Buy spotify premium
-		: Oh shoot. You forgot how broke you are.
-		: You frantically search your brain for a solution, and then it comes to you: HCB.
-		- Use HCB card
-			: You pull out your recent HCB "emergency" grant, and pay for spotify premium.
-			: The music resumes.
-			Cerberus: *drifts off to sleep*
+if GlobalVariables.passed_m1 == false:
+	: As you continue your journey, you notice the gate is guarded by a large dog... with multiple heads? 
+	Cerberus: Intruder. Trespasser. Singer? …Maybe?
+	- Soothe Cerberus with a song
+		: You open Spotify and start a calming playlist.
+		Cerberus: Warm… safe… music… IS THAT CLAIRO?
+		: His middle head begins to droop. "Performative ahh male," exclaims the left head.
+		: Seems like you can safely pass through this area.
+		Cerberus: ...
+		Cerberus: Wait. What happened to the music?
+		: You have reached an unskippable ad.
+		- Buy Spotify premium
+			: Oh shoot. You forgot how broke you are.
+			: You frantically search your brain for a solution, and then it comes to you: HCB.
+			- Use HCB card
+				: You pull out your recent HCB "emergency" grant, and pay for spotify premium.
+				: The music resumes.
+				Cerberus: *drifts off to sleep*
+				You: That was a close call...
+				do GlobalVariables.passed_m1 = true
+			- Use face card
+				: You are Hippolyta, Amazonian Queen. Your face card never declines.
+				: The music resumes.
+				Cerberus: *drifts off to sleep*
+				You: That was a close call...
 			do GlobalVariables.passed_m1 = true
-		- Use face card
-			: You are Hippolyta, Amazonian Queen. Your face card never declines.
-			: The music resumes.
-			Cerberus: *drifts off to sleep*
-		do GlobalVariables.passed_m1 = true
-	- Run for your life
-		: All of Cerberus' heads perk up. His tail starts wagging.
-		Cerberus: Are we playing catch?!
-		You: Yes! Good idea!
-		: Cerberus leaps into the air, pouncing on the target.
-		: You were the target. You have died.
-		do GlobalVariables.failedGame = true
-	- Wait out the ad
-		: Just as Cerberus starts growling, the music resumes.
-		: That was a close call...
-		do GlobalVariables.passed_m1 = true
-- Distract one of his heads
-	You: Hey, you! Fetch!
-	: You throw a tennis ball. \n You forget that tennis balls do not exist in the world of starfall.
-	Cerberus: There is nothing to fetch! Deception is unwise. Face my wrath!
-	: He lunges. You are fast, but not fast enough.
-	do GlobalVariables.failedGame = true
+		- Run for your life
+			: All of Cerberus' heads perk up. His tail starts wagging.
+			Cerberus: Are we playing catch?!
+			You: Yes! Good idea!
+			: Cerberus leaps into the air, pouncing on the target.
+			: You were the target. You have died.
+			do GlobalVariables.failed_game()
+		- Wait out the ad
+			: Just as Cerberus starts growling, the music resumes.
+			You: That was a close call...
+			do GlobalVariables.passed_m1 = true
+	- Distract one of his heads
+		You: Hey, you! Fetch!
+		: You throw a tennis ball. \n You forget that tennis balls do not exist in the World of Starfall.
+		Cerberus: There is nothing to fetch! Deception is unwise. Face my wrath!
+		: He lunges. You are fast, but not fast enough.
+		do GlobalVariables.failed_game()
+else:
+	You: That was a close call...
 => END

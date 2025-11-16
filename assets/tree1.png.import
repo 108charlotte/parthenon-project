@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://6evmvpwc0rib"
-path.s3tc="res://.godot/imported/Medusa Drawn.PNG-e7749ac83a5ef3a1cd05aa65705807be.s3tc.ctex"
+uid="uid://dl7or1rv7ss1n"
+path.s3tc="res://.godot/imported/tree1.png-5ce797198e3ffe75db98e649ec75530a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/monsters/Medusa Drawn.PNG"
-dest_files=["res://.godot/imported/Medusa Drawn.PNG-e7749ac83a5ef3a1cd05aa65705807be.s3tc.ctex"]
+source_file="res://assets/tree1.png"
+dest_files=["res://.godot/imported/tree1.png-5ce797198e3ffe75db98e649ec75530a.s3tc.ctex"]
 
 [params]
 

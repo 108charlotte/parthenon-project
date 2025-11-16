@@ -1,16 +1,20 @@
 ~ start
-Arachne: Another meddler? If you seek the fallen star, you must wait. Art is not rushed.
-- Try to out-weave Arachne
-	: Arachne laughs harshly.
-	Arachne: You challenge me? I accept. A battle of weaving to the death it is.
-	: Your hubris and measley cat's cradle is no match for Arachne's tapestry of gold and silver. 
-	: You lose.
-	Arachne: *Cackles in delightt.* 
-	Arachne: A word of advice, little demigod: whether or not you are better, it does not matter. If you do not show respect to those who are more powerful, you will live a short life.
-	: You can feel your life force fade away as the stakes of the challenge take effect.
-	: You manage to croack out your dying words.
-	You: Arachne... the glasses... your eyes.... like framed artwork... glowing orbs... 24 karat go— *dies*
-	do GlobalVariables.failedGame = true
-- Let her finish her tapestry
-	Arachne: Respect… from a demigod? How rare. Very well. Your patience shall be repaid.
+if GlobalVariables.passed_m2 == false:
+	Arachne: Another meddler? If you seek the fallen star, you must wait. Art is not rushed.
+	- Try to out-weave Arachne
+		: Arachne laughs harshly.
+		Arachne: You challenge me? I accept. A battle of weaving to the death it is.
+		: Your hubris and measley cat's cradle is no match for Arachne's tapestry of gold and silver. 
+		: You lose.
+		Arachne: *Cackles in delightt.* 
+		Arachne: A word of advice, little demigod: whether or not you are better, it does not matter. If you do not show respect to those who are more powerful, you will live a short life.
+		: You can feel your life force fade away as the stakes of the challenge take effect.
+		: You manage to croack out your dying words.
+		You: Arachne... the glasses... your eyes.... like framed artwork... glowing orbs... 24 karat go— *dies*
+		do GlobalVariables.failed_game()
+	- Let her finish her tapestry
+		Arachne: Respect… from a demigod? How rare. Very well. Your patience shall be repaid.
+		do GlobalVariables.passed_m2 = true
+else:
+	Arachne: Your patience shall be repaid.
 => END
