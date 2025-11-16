@@ -1,6 +1,5 @@
 extends CharacterBody3D
 
-
 const SPEED = 5.0
 const JUMP_VELOCITY = 4.5
 const SENSITIVITY = 0.02
@@ -11,7 +10,6 @@ var t_bob = 0.0
 
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
-@onready var monst1 = $"../Area3D/CollisionShape3D"
 
 func _ready(): 
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)

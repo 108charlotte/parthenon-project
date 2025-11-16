@@ -1,9 +1,9 @@
-[gd_scene load_steps=57 format=3 uid="uid://vim4vsaip54s"]
+[gd_scene load_steps=56 format=3 uid="uid://vim4vsaip54s"]
 
 [ext_resource type="Script" uid="uid://br1t0808rj8aa" path="res://main.gd" id="1_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://dcpagqpvckc4n" path="res://icon.svg" id="2_h2yge"]
 [ext_resource type="Script" uid="uid://c6sh1rtqrwdij" path="res://character_body_3d.gd" id="3_1bvp3"]
-[ext_resource type="PackedScene" uid="uid://by3x4hyeu0lky" path="res://mesh_instance_3d.tscn" id="3_h2yge"]
+[ext_resource type="Texture2D" uid="uid://ddyocdobnk8s4" path="res://images/cerberus.png" id="4_hrvbo"]
 [ext_resource type="Texture2D" uid="uid://oxuw8wrnfbmt" path="res://ezgif-768006266ad2581b-png-split/ezgif-frame-001.png" id="5_0cbny"]
 [ext_resource type="Texture2D" uid="uid://dlm2v2v1thyxj" path="res://ezgif-768006266ad2581b-png-split/ezgif-frame-002.png" id="6_hrvbo"]
 [ext_resource type="Texture2D" uid="uid://b0r6eg0sls8k5" path="res://ezgif-768006266ad2581b-png-split/ezgif-frame-003.png" id="7_uypp3"]
@@ -219,8 +219,6 @@ animations = [{
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_1bvp3"]
 
-[sub_resource type="CylinderMesh" id="CylinderMesh_1bvp3"]
-
 [node name="Node3D" type="Node3D"]
 script = ExtResource("1_0xm2m")
 
@@ -259,8 +257,6 @@ size = Vector3(0.002, 7, 100)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.990934, 0)
 script = ExtResource("3_1bvp3")
 
-[node name="MeshInstance3D" parent="CharacterBody3D" instance=ExtResource("3_h2yge")]
-
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
 shape = SubResource("ConvexPolygonShape3D_h2yge")
 
@@ -285,7 +281,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 0, 0)
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
 shape = SubResource("BoxShape3D_1bvp3")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="Area3D"]
-mesh = SubResource("CylinderMesh_1bvp3")
+[node name="Sprite3D" type="Sprite3D" parent="Area3D"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0, 2, 0)
+texture = ExtResource("4_hrvbo")
 
 [connection signal="body_entered" from="Area3D" to="CharacterBody3D" method="_on_area_3d_body_entered"]
