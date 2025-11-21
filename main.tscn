@@ -1019,7 +1019,7 @@ animations = [{
 }],
 "loop": false,
 "name": &"intro",
-"speed": 5.0
+"speed": 12.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -1470,7 +1470,7 @@ use_collision = true
 size = Vector3(2, 7, 100)
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.37615, 1.04024, 46.5015)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.15467, 1.04024, 44.2687)
 script = ExtResource("3_1bvp3")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
@@ -1493,7 +1493,7 @@ sprite_frames = SubResource("SpriteFrames_7mycd")
 animation = &"intro"
 
 [node name="monster_1_area" type="Area3D" parent="."]
-transform = Transform3D(-0.526882, 0, -0.849939, 0, 1, 0, 0.849939, 0, -0.526882, -6.64037, 1.50616, 33.5431)
+transform = Transform3D(-0.526882, 0, -0.849939, 0, 1, 0, 0.849939, 0, -0.526882, 32.4876, 1.50616, -29.5762)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="monster_1_area"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
@@ -1504,7 +1504,7 @@ transform = Transform3D(-1.74846e-08, 0, 0.4, 0, 0.4, 0, -0.4, 0, -1.74846e-08, 
 texture = ExtResource("50_abqjc")
 
 [node name="monster_2_area" type="Area3D" parent="."]
-transform = Transform3D(-0.0896067, 0, 0.995978, 0, 1, 0, -0.995978, 0, -0.0896067, -2.45368, 1.52927, 6.4959)
+transform = Transform3D(-0.0896067, 0, 0.995978, 0, 1, 0, -0.995978, 0, -0.0896067, 18.9309, 1.52927, 19.775)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="monster_2_area"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
@@ -1515,7 +1515,7 @@ transform = Transform3D(-0.173205, 0, 0.1, 0, 0.2, 0, -0.1, 0, -0.173205, 0, 0, 
 texture = ExtResource("51_6iyjs")
 
 [node name="monster_3_area" type="Area3D" parent="."]
-transform = Transform3D(0.780485, 0, -0.625174, 0, 1, 0, 0.625174, 0, 0.780485, 31.5887, 2, -28.5607)
+transform = Transform3D(0.616664, 0, 0.787226, 0, 1, 0, -0.787226, 0, 0.616664, -0.76758, 2, 6.83696)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="monster_3_area"]
 transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
